@@ -1,0 +1,32 @@
+{
+  "name": "jadwalsholat",
+  "version": "1.0.0",
+  "description": "Check Sholat Time Schedule with your Command Line",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "app.js",
+  "keywords": [
+    "prayer time",
+    "sholat",
+    "cli"
+  ],
+  "author": "Nabil Muhammad Firdaus <nabilftd@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmfzone/jadwal-sholat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nmfzone/jadwal-sholat/issues"
+  },
+  "dependencies": {
+    "node-horseman": "^3.0.1",
+    "cheerio": "^0.20.0",
+    "tabletojson": "^0.4.0",
+    "cli-table": "^0.3.1",
+    "cli-spinner": "^0.2.5",
+    "colors": "^1.0.3"
+  }
+}
